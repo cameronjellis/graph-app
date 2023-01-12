@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import singleSpaReact from "single-spa-react";
+import Navbar from "./components/Navbar";
 import Root from "./root.component";
 
 const lifecycles = singleSpaReact({
